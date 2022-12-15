@@ -1,5 +1,5 @@
-import { Content } from './content';
-import { Notification } from './notifications';
+import { Content } from './content'
+import { Notification } from './notifications'
 
 describe('Notification', () => {
   it('should be able to create a notification', () => {
@@ -7,8 +7,8 @@ describe('Notification', () => {
       content: new Content('Nova solicitação de amizade'),
       category: 'social',
       recipientId: 'example-recipient-id',
-    });
+    })
 
-    expect(notification).toBeTruthy();
-  });
-});
+    expect(notification).toBeTruthy()
+  })
+})

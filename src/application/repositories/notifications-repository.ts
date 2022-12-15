@@ -1,5 +1,5 @@
-import { Notification } from "../entities/notifications";
+import { Notification } from '../entities/notifications'
 
 export abstract class NotificationsRepository {
-  abstract create(notification: Notification): Promise<void>;
+  abstract create(notification: Notification): Promise<void>
 }

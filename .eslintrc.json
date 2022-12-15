@@ -1,8 +1,12 @@
+{
+  "extends": "@rocketseat/eslint-config/react"
+}
+
 // module.exports = {
 //   parser: '@typescript-eslint/parser',
 //   parserOptions: {
 //     project: 'tsconfig.json',
-//     tsconfigRootDir : __dirname,
+//     tsconfigRootDir: __dirname,
 //     sourceType: 'module',
 //   },
 //   plugins: ['@typescript-eslint/eslint-plugin'],
@@ -23,15 +27,3 @@
 //     '@typescript-eslint/no-explicit-any': 'off',
 //   },
 // };
-
-{
-  "extends": [
-    "plugin:prettier/recommended"
-  ],
-
-  "plugins": ["prettier"],
-
-  "rules": {
-    "prettier/prettier": "error"
-  }
-}
